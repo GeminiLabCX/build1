@@ -7,9 +7,9 @@ import (
 )
 
 var (
-	buildstamp string
-	githash    string
-	goversion  string
+	buildstamp string = "not set"
+	githash    string = "not set"
+	goversion  string = "not set"
 )
 
 func main() {
